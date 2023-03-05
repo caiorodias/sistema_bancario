@@ -58,6 +58,6 @@ while True:
         usuario = {'nome': nome, 'data de nascimento': data_formatada, 'CPF': cpf, 'Endereço': endereco}
         contas.append(usuario)
         
-        
+        #Criar a conta e agencia e limitar a 2 contas por cpf
         
         print('Conta criada com sucesso!')
